@@ -65,6 +65,9 @@
 		D44C6210132DFF4E0009C878 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D44C620F132DFF4E0009C878 /* AudioToolbox.framework */; };
 		D6B0611B1803AB670077942B /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6B0611A1803AB670077942B /* CoreMotion.framework */; };
 		DB1272C91B145353001F4FC2 /* img in Resources */ = {isa = PBXBuildFile; fileRef = DB1272C81B145353001F4FC2 /* img */; };
+		DBCAFA681B1D8D11005BD7ED /* QueenScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DBCAFA661B1D8D11005BD7ED /* QueenScene.cpp */; };
+		DBCAFA6B1B1DFEA8005BD7ED /* FoodScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DBCAFA691B1DFEA8005BD7ED /* FoodScene.cpp */; };
+		DBCAFA6E1B1DFFA1005BD7ED /* EggScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DBCAFA6C1B1DFFA1005BD7ED /* EggScene.cpp */; };
 		DBE3B54E1B14EDC400ED8D00 /* MainScene.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DB1272C11B1448D4001F4FC2 /* MainScene.cpp */; };
 /* End PBXBuildFile section */
 
@@ -158,6 +161,12 @@
 		DB1272C11B1448D4001F4FC2 /* MainScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; lineEnding = 0; path = MainScene.cpp; sourceTree = "<group>"; usesTabs = 0; };
 		DB1272C21B1448D4001F4FC2 /* MainScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainScene.h; sourceTree = "<group>"; };
 		DB1272C81B145353001F4FC2 /* img */ = {isa = PBXFileReference; lastKnownFileType = folder; path = img; sourceTree = "<group>"; };
+		DBCAFA661B1D8D11005BD7ED /* QueenScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = QueenScene.cpp; sourceTree = "<group>"; };
+		DBCAFA671B1D8D11005BD7ED /* QueenScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QueenScene.h; sourceTree = "<group>"; };
+		DBCAFA691B1DFEA8005BD7ED /* FoodScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FoodScene.cpp; sourceTree = "<group>"; };
+		DBCAFA6A1B1DFEA8005BD7ED /* FoodScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FoodScene.h; sourceTree = "<group>"; };
+		DBCAFA6C1B1DFFA1005BD7ED /* EggScene.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = EggScene.cpp; sourceTree = "<group>"; };
+		DBCAFA6D1B1DFFA1005BD7ED /* EggScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EggScene.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -292,6 +301,12 @@
 				46880B8519C43A87006E1F66 /* AppDelegate.h */,
 				DB1272C11B1448D4001F4FC2 /* MainScene.cpp */,
 				DB1272C21B1448D4001F4FC2 /* MainScene.h */,
+				DBCAFA661B1D8D11005BD7ED /* QueenScene.cpp */,
+				DBCAFA671B1D8D11005BD7ED /* QueenScene.h */,
+				DBCAFA691B1DFEA8005BD7ED /* FoodScene.cpp */,
+				DBCAFA6A1B1DFEA8005BD7ED /* FoodScene.h */,
+				DBCAFA6C1B1DFFA1005BD7ED /* EggScene.cpp */,
+				DBCAFA6D1B1DFFA1005BD7ED /* EggScene.h */,
 			);
 			name = Classes;
 			path = ../Classes;
@@ -491,10 +506,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DBCAFA6B1B1DFEA8005BD7ED /* FoodScene.cpp in Sources */,
 				46880B8819C43A87006E1F66 /* AppDelegate.cpp in Sources */,
 				DBE3B54E1B14EDC400ED8D00 /* MainScene.cpp in Sources */,
 				503AE10017EB989F00D1A890 /* AppController.mm in Sources */,
+				DBCAFA681B1D8D11005BD7ED /* QueenScene.cpp in Sources */,
 				503AE10217EB989F00D1A890 /* RootViewController.mm in Sources */,
+				DBCAFA6E1B1DFFA1005BD7ED /* EggScene.cpp in Sources */,
 				503AE10117EB989F00D1A890 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
